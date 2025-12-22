@@ -2,3 +2,7 @@ flask
 crewai
 langchain
 tavily-python
+langchain-openai
+langchain-community
+crewai-tools
+sentence-transformers
