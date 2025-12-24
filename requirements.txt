@@ -1,8 +1,46 @@
-flask
-crewai
-langchain
-tavily-python
-langchain-openai
-langchain-community
-crewai-tools
-sentence-transformers
+# -------------------------
+# Web framework
+# -------------------------
+flask==3.0.3
+requests==2.32.3
+
+# -------------------------
+# LangChain core + modules
+# -------------------------
+langchain==0.3.14
+langchain-community==0.3.14
+langchain-core==0.3.29
+langchain-openai==0.2.12
+langchain-huggingface==0.1.2
+langchain-chroma==0.1.4
+langchain-text-splitters==0.3.5
+
+# -------------------------
+# Vector store
+# -------------------------
+chromadb==0.5.23
+
+# -------------------------
+# Embeddings / NLP
+# -------------------------
+sentence-transformers==3.1.1
+transformers==4.45.2
+tokenizers==0.20.3
+huggingface-hub==0.25.2
+
+# -------------------------
+# Search
+# -------------------------
+langchain-tavily==0.1.5
+tavily-python==0.5.0
+
+# -------------------------
+# PDF loading
+# -------------------------
+pypdf==4.3.1
+
+# -------------------------
+# Utilities
+# -------------------------
+numpy==1.26.4
+tqdm==4.66.5
