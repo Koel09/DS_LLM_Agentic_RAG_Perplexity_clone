@@ -11,7 +11,7 @@ from langchain_chroma import Chroma
 # CONFIG
 # =========================
 
-PDF_DIR = "data/pdfs"          # folder with PDFs
+PDF_DIR = Path("data/pdfs")          # folder with PDFs
 CHROMA_DIR = "data/chroma"     # must match rag_pipeline.py
 EMBED_MODEL = "BAAI/bge-small-en-v1.5"
 
