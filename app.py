@@ -19,14 +19,13 @@ def download_index_html():
     with open("template/index.html", "w", encoding="utf-8") as f:
         f.write(response.text)
 
-def download_rag_pipeline():
-    pass
 
 # -------------------------
 # API ENDPOINT
 # -------------------------
 @app.route("/ask", methods=["POST"])
 def ask():
+
     data = request.json
 
     question = data.get("question")
