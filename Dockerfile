@@ -52,7 +52,7 @@ RUN python pdf_ingest.py || true
 # -------------------------
 # Expose Flask port
 # -------------------------
-EXPOSE 5000
+EXPOSE 8000
 
 # -------------------------
 # Run Flask app
