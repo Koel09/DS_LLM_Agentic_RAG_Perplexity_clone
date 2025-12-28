@@ -162,6 +162,24 @@ To deepen your understanding, try these hands-on activities:
 - Dockerise the flask API/streamlit app for deployment.
 
 ---
+## ▶ How to Run
+
+### 🔧 Build Docker Image:
+```bash
+docker build --no-cache -t rag_app https://github.com/Koel09/DS_LLM_Agentic_RAG_Perplexity_clone.git
+```
+
+### ▶ Run the Container:
+```bash
+docker run -p 8000:8000 \
+  -e GROQ_API_KEY=my_key \
+  -e TAVILY_API_KEY=my_key \
+  rag_app 
+```
+
+Then go to `http://127.0.0.1:8000/` or `http://172.17.0.2:8000` in your browser!
+
+---
 
 ## 🧵 Summary
 
